@@ -32,10 +32,8 @@ override_dh_auto_build:
 	$(MAKE) $(PARALLEL) Q=$Q CFLAGS+="$(CPPFLAGS)" WARNFLAGS="-Wall -Wextra"
 
 # Do not run the full test suite, as it pulls non-free codebases to run tests on.
-# "asm" test suite creates a few .gitingore'd files while running, delete them to clean the tree.
 override_dh_auto_test:
 	cd test/asm && ./test.sh
-	rm -f test/asm/'quote"file'.*
 	cd test/link && ./test.sh
 
 override_dh_auto_install:
