@@ -18,4 +18,4 @@ override_dh_auto_test:
 	cd test/link && ./test.sh
 
 execute_before_dh_auto_clean:
-	rm -f build/src/rgbasm build/src/rgblink build/src/rgbfix build/src/rgbgfx
+	rm -f rgbasm rgblink rgbfix rgbgfx
