@@ -13,9 +13,11 @@ export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 # CMake builds executables in `./build/src/`, but tests expect them at `./`
 # Do not run the full test suite, as it pulls non-free codebases to run tests on.
 override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	cp build/src/rgbasm build/src/rgblink build/src/rgbfix build/src/rgbgfx .
 	cd test/asm && ./test.sh
 	cd test/link && ./test.sh
+endif
 
 execute_before_dh_auto_clean:
 	rm -f rgbasm rgblink rgbfix rgbgfx
