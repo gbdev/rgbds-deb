@@ -1,23 +1,7 @@
 #!/usr/bin/make -f
 # See debhelper(7) (uncomment to enable)
 # output every command that modifies files on the build system.
-export DH_VERBOSE = 1
-
-ifneq (,$(filter nostrip,$(DEB_BUILD_OPTIONS)))
-	STRIP :=
-else
-	STRIP := -s
-endif
-
-ifneq (,$(filter terse,$(DEB_BUILD_OPTIONS)))
-	Q := @
-else
-	Q :=
-endif
-
-ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
-    PARALLEL = -j$(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
-endif
+#export DH_VERBOSE = 1
 
 export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 
