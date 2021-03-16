@@ -7,7 +7,7 @@ export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 
 
 %:
-	dh $@ --buildsystem=cmake+makefile -B build
+	dh $@ --buildsystem=cmake -B build
 
 
 # CMake builds executables in `./build/src/`, but tests expect them at `./`
