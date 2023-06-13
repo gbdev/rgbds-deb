@@ -1,0 +1,26 @@
+Source: rgbds
+Section: devel
+Priority: optional
+Maintainer: Eldred Habert <me@eldred.fr>
+# debhelper for dh in the rules
+# Bison to generate the code
+# Make (build-essential) for the build system (cmake is an alternative, however)
+# Awk to detect the Bison version, pkg-config for libpng flags
+# libc-dev and libpng-dev for the required headers
+Build-Depends: debhelper-compat (= 13), bison (>= 3.0), pkg-config, libpng-dev
+Standards-Version: 4.5.1
+Homepage: https://rgbds.gbdev.io
+Vcs-Browser: https://github.com/gbdev/rgbds
+Vcs-Git: https://github.com/gbdev/rgbds.git
+Rules-Requires-Root: no
+
+Package: rgbds
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Game Boy ASM programming tools
+ The Rednex Game Boy Development System provides tools to compile homebrew
+ Game Boy ROMs. It consists of:
+  - rgbasm (assembler)
+  - rgblink (linker)
+  - rgbfix (checksum/header fixer)
+  - rgbgfx (PNG‐to‐Game Boy graphics converter)
