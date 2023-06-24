@@ -1,5 +1,5 @@
-rgbds (0.4.2-1) unstable; urgency=medium
+rgbds (0.6.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #984927)
+  * New upstream version for initial release (Closes: #984927)
 
- -- Eldred Habert <me@eldred.fr>  Thu, 11 Mar 2021 01:47:42 +0000
+ -- Julius Clasen <julius.clasen@cmz.de>  Sat, 24 Jun 2023 10:47:00 +0000

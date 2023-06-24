@@ -1,7 +1,7 @@
 Source: rgbds
 Section: devel
 Priority: optional
-Maintainer: Eldred Habert <me@eldred.fr>
+Maintainer: Julius Clasen <julius.clasen@cmz.de>
 # debhelper for dh in the rules
 # Bison to generate the code
 # CMake for the build system
@@ -10,8 +10,8 @@ Maintainer: Eldred Habert <me@eldred.fr>
 Build-Depends: debhelper-compat (= 13), cmake (>= 3.0), bison (>= 3.0), pkg-config, libpng-dev
 Standards-Version: 4.5.1
 Homepage: https://rgbds.gbdev.io
-Vcs-Browser: https://github.com/ISSOtm/rgbds-deb
-Vcs-Git: https://github.com/ISSOtm/rgbds-deb.git
+Vcs-Browser: https://github.com/Robbi-Blechdose/rgbds-deb
+Vcs-Git: https://github.com/Robbi-Blechdose/rgbds-deb.git
 Rules-Requires-Root: no
 
 Package: rgbds
