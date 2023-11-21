@@ -1,5 +1,5 @@
-rgbds (0.6.1-1) unstable; urgency=medium
+rgbds (0.6.1-2) unstable; urgency=medium
 
-  * New upstream version for initial release (Closes: #984927)
+  * Fixed tests being packaged
 
- -- Julius Clasen <julius.clasen@cmz.de>  Sat, 24 Jun 2023 10:47:00 +0000
+ -- Julius Clasen <julius.clasen@cmz.de>  Tue, 21 Nov 2023 12:14:00 +0000
