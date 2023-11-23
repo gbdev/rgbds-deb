@@ -8,8 +8,9 @@ Copyright: 1997-2020 Carsten Sorensen and RGBDS contributors
 License: Expat
 
 Files: debian/*
-Copyright: 2021 Eldred Habert <me@eldred.fr>
-Copyright: 2023 Julius Clasen <julius.clasen@cmz.de>
+Copyright:
+  Copyright 2021 Eldred Habert <me@eldred.fr>
+  Copyright 2023 Julius Clasen <julius.clasen@cmz.de>
 License: Expat
 
 License: Expat

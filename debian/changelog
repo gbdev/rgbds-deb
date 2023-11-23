@@ -1,3 +1,9 @@
+rgbds (0.6.1-4) unstable; urgency=medium
+
+  * Attempting to fix debian/copyright
+
+ -- Julius Clasen <julius.clasen@cmz.de>  Thu, 23 Nov 2023 12:18:00 +0000
+
 rgbds (0.6.1-3) unstable; urgency=medium
 
   * Updated debian/copyright and standards version
