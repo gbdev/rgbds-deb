@@ -1,3 +1,9 @@
+rgbds (0.6.1-5) unstable; urgency=medium
+
+  * Attempting to fix lintian warning for test binaries
+
+ -- Julius Clasen <julius.clasen@cmz.de>  Mon, 11 Dec 2023 16:27:00 +0000
+
 rgbds (0.6.1-4) unstable; urgency=medium
 
   * Attempting to fix debian/copyright
