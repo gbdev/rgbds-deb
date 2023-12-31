@@ -1,3 +1,9 @@
+rgbds (0.7.0-2) unstable; urgency=medium
+
+  * Update to re-tagged upstream version 0.7.0
+
+ -- Julius Clasen <julius.clasen@cmz.de>  Sun, 31 Dec 2023 13:50:00 +0000
+
 rgbds (0.7.0-1) unstable; urgency=medium
 
   * Update to upstream version 0.7.0 for initial release (Closes: #984927)
