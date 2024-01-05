@@ -1,47 +1,5 @@
-rgbds (0.7.0-2) unstable; urgency=medium
-
-  * Update to re-tagged upstream version 0.7.0
-
- -- Julius Clasen <julius.clasen@cmz.de>  Sun, 31 Dec 2023 13:50:00 +0000
-
-rgbds (0.7.0-1) unstable; urgency=medium
-
-  * Update to upstream version 0.7.0 for initial release (Closes: #984927)
-
- -- Julius Clasen <julius.clasen@cmz.de>  Sat, 30 Dec 2023 10:12:00 +0000
-
-rgbds (0.6.1-5) unstable; urgency=medium
-
-  * Attempting to fix lintian warning for test binaries
-
- -- Julius Clasen <julius.clasen@cmz.de>  Mon, 11 Dec 2023 16:27:00 +0000
-
-rgbds (0.6.1-4) unstable; urgency=medium
-
-  * Attempting to fix debian/copyright
-
- -- Julius Clasen <julius.clasen@cmz.de>  Thu, 23 Nov 2023 12:18:00 +0000
-
-rgbds (0.6.1-3) unstable; urgency=medium
-
-  * Updated debian/copyright and standards version
-
- -- Julius Clasen <julius.clasen@cmz.de>  Thu, 23 Nov 2023 11:58:00 +0000
-
-rgbds (0.6.1-2) unstable; urgency=medium
-
-  * Fixed tests being packaged
-
- -- Julius Clasen <julius.clasen@cmz.de>  Tue, 21 Nov 2023 12:14:00 +0000
-
-rgbds (0.6.1-1) unstable; urgency=medium
-
-  * New upstream version for initial release (Closes: #984927)
-
- -- Julius Clasen <julius.clasen@cmz.de>  Sat, 24 Jun 2023 10:47:00 +0000
-
-rgbds (0.4.2-1) unstable; urgency=medium
+rgbds (0.7.0-3) unstable; urgency=medium
 
   * Initial release (Closes: #984927)
 
- -- Eldred Habert <me@eldred.fr>  Thu, 11 Mar 2021 01:47:42 +0000
+ -- Julius Clasen <julius.clasen@cmz.de>  Fri, 5 Jan 2024 10:14:00 +0000
