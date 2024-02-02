@@ -10,8 +10,8 @@ Maintainer: Julius Clasen <julius.clasen@cmz.de>
 Build-Depends: debhelper-compat (= 13), cmake (>= 3.0), bison (>= 3.0), pkg-config, libpng-dev
 Standards-Version: 4.6.2
 Homepage: https://rgbds.gbdev.io
-Vcs-Browser: https://github.com/Robbi-Blechdose/rgbds-deb
-Vcs-Git: https://github.com/Robbi-Blechdose/rgbds-deb.git
+Vcs-Browser: https://github.com/gbdev/rgbds-deb
+Vcs-Git: https://github.com/gbdev/rgbds-deb.git
 Rules-Requires-Root: no
 
 Package: rgbds
