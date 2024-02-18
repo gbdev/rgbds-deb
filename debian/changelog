@@ -1,5 +1,5 @@
-rgbds (0.7.0-4) unstable; urgency=medium
+rgbds (0.7.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #984927)
 
- -- Julius Clasen <julius.clasen@cmz.de>  Fri, 5 Jan 2024 10:14:00 +0000
+ -- Julius Clasen <julius.clasen@cmz.de>  Sun, 18 Feb 2024 13:14:52 +0100
